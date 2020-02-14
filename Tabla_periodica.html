@@ -12,28 +12,50 @@
         }
         .tabla{
             height: 700px;
-            width: 1200px;
-            background-color: rgba(255, 255, 255, 0.788);
+            width: 1130px;
+            background-color: #ffffffc9;
         }
-        .regla{
+        .regla_a{
             font-size: 13px;
             color: red;
-            display: block;
+            display: inline-block;
             text-align: center;
-            word-spacing: 43px;
-            margin-left: 85px;
-            margin-top: 10px;
-            width: 1000px;
+            word-spacing: 43px;         
+            width: 100px;
+            margin-top: 20px;
+            margin-left: 13px;
+        }
+        .regla_b{
+            font-size: 13px;
+            color: red;
+            display: inline-block;
+            text-align: center;
+            word-spacing: 43px;         
+            width: 550px;
+            margin-top: 20px;
+            margin-left: 35px;
+        }
+        .regla_c{
+            font-size: 13px;
+            color: red;
+            display: inline-block;
+            text-align: center;
+            word-spacing: 38px;         
+            width: 330px;
+            margin-top: 20px;
+            margin-left: 0px;
         }
         .medio{
             margin: auto;
         }
         .group{
             color:red;
-            display:block;
+            display:inline-block;
             width: 50px;
             font-size: 15px;
-            margin-left: 10px;
+            margin-left: 5px;
+            vertical-align: top;
+            margin-top: 10px;
 
         }
         .regla2{
@@ -42,7 +64,7 @@
             width: 10px;
             display: inline-block;
             margin: 20px;
-            line-height: 40px;
+            line-height: 42px;
             text-align: justify;
             height: 320px;
             vertical-align: top;
@@ -50,41 +72,41 @@
         }
         .s{
             width: 110px;
-            background-color: rgb(51, 51, 226);
-            height:290px ;
+            height:300px ;
             display: inline-block;
-            margin: 20px;
+            margin: 17px;
             vertical-align: top;
         }
         .s button{
             width: 50px;
-            font-size: 10px;
-            margin: 1.4px;
+            font-size: 8px;
+            margin:1.45px;
+            background-color: rgb(85, 85, 252);
         }
         .d{
             width: 560px;
-            background-color: pink;
             height: 167px;
             display: inline-block;
             vertical-align: top;
-            margin-top: 144px;
+            margin-top: 146px;
         }
         .d button{
             width: 50px;
-            font-size: 10px;
+            font-size: 8px;
             margin: 1.4px; 
+            background-color: rgb(212, 129, 191);
         }
         .p{
             width: 336px;
             height: 290px;
             display: inline-block;
-            background-color: yellow;
-            margin-top: 19px;
+            margin-top: 18px;
         }
         .p button{
             width: 50px;
-            font-size: 10px;
+            font-size: 8px;
             margin: 1.5px; 
+            background-color: rgb(208, 255, 0);
         }
         .p button.right{
             margin-left: 283px;  
@@ -97,7 +119,7 @@
             vertical-align: top;
             color: red;
             font-size: 15px;
-            margin-left: 100px;
+            margin-left: 69px;
             line-height: 40px;
         }
       
@@ -106,152 +128,168 @@
             background-color: turquoise;
             width: 790px;
             height:80px;   
-            margin-bottom: 0px;
+        
             display: inline-block;   
             vertical-align: top;
         }
+        .punto{
+            display: inline-block;
+            width: 20px;
+            color:red;
+            font-size: 15px;
+            line-height: 40px;
+            height: 80px;
+        }
         .f button{
             width: 50px;
-            font-size: 10px;
+            font-size: 8px;
             margin: 1.5px; 
+            background-color:rgb(19, 204, 19) ;
+        }
+        b{
+            color: rgb(7, 7, 133);
+            font-size: 12px;
+       
         }
       </style>
    </head>
    <body>
         <div class="tabla">
-            <h1 class="regla">1 2 3 4 5 6 7 8 8 10 11 12 13 14 15 16 17 18</h1><br><br>
-                <div class="medio">
-                    <h2 class="group">Group period</h2>
+            <h2 class="group">Group period</h2>
+            <h1 class="regla_a">1 2 </h1>
+            <h1 class="regla_b">3 4 5 6 7 8 9 10 11 12 </h1> 
+            <h1 class="regla_c"> 13 14 15 16 17 18</h1>           
+            <div class="medio">
                      <h1 class="regla2"> 1 2 3 4 5 6 7 </h1>
                     <div class="s">
-                        <button> 1323 <br>H <br>Hidrogeno</button><br>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>               
+                        <button> 1 <br><b class="b">H</b><br>1.008</button><br>
+                        <button> 3 <br><b class="b">Li</b><br>6.94</button>
+                        <button> 4 <br><b class="b">Be</b><br>9.0122</button>
+                        <button> 11 <br><b class="b">Na</b><br>22.990</button>
+                        <button> 12 <br><b class="b">Mg</b><br>24.305</button>
+                        <button> 19 <br><b class="b">K</b><br>39.098</button>
+                        <button> 20 <br><b class="b">Ca</b><br>40.078</button>
+                        <button> 37 <br><b class="b">Rb</b><br>85.468</button>
+                        <button> 38 <br><b class="b">Sr</b><br>87.62</button>
+                        <button> 55 <br><b class="b">Cs</b><br>132.91</button>
+                        <button> 56 <br><b class="b">Ba</b><br>137.33</button>
+                        <button> 87 <br><b class="b">Fr</b><br>223.02</button>
+                        <button> 88 <br><b class="b">Ra</b><br>226.03</button>               
                     </div>
                     <div class="d">
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
+                        <button> 21 <br><b class="b">Sc</b><br>44.956</button>
+                        <button> 22 <br><b class="b">Ti</b><br>47.867</button>
+                        <button> 23 <br><b class="b">V</b><br>50.996</button>
+                        <button> 24 <br><b class="b">Cr</b><br>54.938</button>
+                        <button> 25 <br><b class="b">Mn</b><br>54.938</button>
+                        <button> 26 <br><b class="b">Fe</b><br>55.845</button>
+                        <button> 27 <br><b class="b">Co</b><br>58.933</button>
+                        <button> 28 <br><b class="b">Ni</b><br>58.693</button>
+                        <button> 29 <br><b class="b">Cu</b><br>63.546</button>
+                        <button> 30 <br><b class="b">Zn</b><br>65.38</button>
+                        <button> 39 <br><b class="b">Y</b><br>88.906</button>
+                        <button> 40 <br><b class="b">Zr</b><br>91.224</button>
+                        <button> 41 <br><b class="b">Nb</b><br>92.906</button>
+                        <button> 42 <br><b class="b">Mo</b><br>95.96</button>
+                        <button> 43 <br><b class="b">Tc</b><br>[97.91]</button>
+                        <button> 44 <br><b class="b">Ru</b><br>101.07</button>
+                        <button> 45 <br><b class="b">Rh</b><br>102.91</button>
+                        <button> 46 <br><b class="b">Pd</b><br>106.42</button>
+                        <button> 47 <br><b class="b">Ag</b><br>107.87</button>
+                        <button> 48 <br><b class="b">Cd</b><br>112.41</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
 
                     </div>
                     <div class="p">
-                        <button class="right"> 1323 <br>H <br>Hidrogeno</button><br>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>   
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>  
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>     
+                        <button class="right"> 1323 <br><b>H</b> <br>Hidrogeno</button><br>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>   
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>  
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>     
                     </div>
-                    <h1 class="ids">
-                        *Lantanidos  **Actinidos
-                    </h1>
+                    <h1 class="ids"> *Lantanidos **Actinidos </h1>
+                    <h1 class="punto"> *  ** </h1>
+                    
                     <div class="f">
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>  
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button> 
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>
-                        <button> 1323 <br>H <br>Hidrogeno</button>          
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>  
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button> 
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>
+                        <button> 1 <br><b class="b">H</b><br>1.008</button>          
                     </div>
                 </div>
         </div>
