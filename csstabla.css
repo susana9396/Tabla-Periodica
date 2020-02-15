@@ -1,0 +1,146 @@
+ *{
+        margin:0;
+        padding:0;
+        }
+        .tabla{
+            height: 700px;
+            width: 1200px;
+            background-color:#e4dcdcde;
+        }
+        .regla_a{
+            font-size: 13px;
+            color: red;
+            display: inline-block;
+            text-align: center;
+            word-spacing: 43px;         
+            width: 100px;
+            margin-top: 20px;
+            margin-left: 13px;
+        }
+        .regla_b{
+            font-size: 13px;
+            color: red;
+            display: inline-block;
+            text-align: center;
+            word-spacing: 46px;         
+            width: 550px;
+            margin-top: 20px;
+            margin-left: 33px;
+        }
+        .regla_c{
+            font-size: 13px;
+            color: red;
+            display: inline-block;
+            text-align: center;
+            word-spacing: 40px;         
+            width: 330px;
+            margin-top: 20px;
+            margin-left: 7px;
+        }
+        .medio{
+            margin: auto;
+            background-color :#e4dcdcde ;
+        }
+        .group{
+            color:red;
+            display:inline-block;
+            width: 50px;
+            font-size: 15px;
+            margin-left: 30px;
+            vertical-align: top;
+            margin-top: 10px;
+
+        }
+        .regla2{
+            font-size: 15px;
+            color: red;
+            width: 10px;
+            display: inline-block;
+            margin: 20px;
+            line-height: 40px;
+            text-align: justify;
+            height: 320px;
+            vertical-align: top;
+            margin-left: 40px;
+        }
+        .s{
+            width: 110px;
+            height:275px ;
+            display: inline-block;
+            margin: 17px;
+            vertical-align: top;
+            margin-top: 32px;
+        }
+        .s button{
+            width: 50px;
+            font-size: 8px;
+            margin:1.45px;
+            background-color: rgb(85, 85, 252);
+        }
+        .d{
+            width: 565px;
+            height: 156px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 160px;
+        }
+        .d button{
+            width: 50px;
+            font-size: 8px;
+            margin: 1.4px; 
+            background-color: rgb(212, 129, 191);
+        }
+        .p{
+            width: 340px;
+            height: 274px;
+            display: inline-block;
+            margin-top: 32px;
+        }
+        .p button{
+            width: 50px;
+            font-size: 8px;
+            margin: 1.5px; 
+            background-color: rgb(208, 255, 0);
+        }
+        .p button.right{
+            margin-left: 287px;  
+        }
+        .ids{
+            display: inline-block;
+            width: 100px;
+            height: 80px;
+            margin-top: 1px;
+            vertical-align: top;
+            color: red;
+            font-size: 15px;
+            margin-left: 92px;
+            line-height: 40px;
+        }
+      
+        .f{
+            display: inline-block;
+            width: 795px;
+            height:80px;   
+        
+            display: inline-block;   
+            vertical-align: top;
+        }
+        .punto{
+            display: inline-block;
+            width: 20px;
+            color:red;
+            font-size: 15px;
+            line-height: 40px;
+            height: 80px;
+        }
+        .f button{
+            width: 50px;
+            font-size: 8px;
+            margin: 1.5px; 
+            background-color:rgb(19, 204, 19) ;
+        }
+        b{
+            color: rgb(7, 7, 133);
+            font-size: 12px;
+       
+        }
